@@ -13,7 +13,7 @@ export default function AppLayout() {
 
   return (
     <Drawer
-      drawerContent={(props) => <SidebarContent {...props} />}
+      drawerContent={(props: any) => <SidebarContent {...props} />}
       screenOptions={{
         headerShown: false,
         drawerStyle: { backgroundColor: '#111111', width: 300 },

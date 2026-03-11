@@ -26,6 +26,7 @@ export interface OWUIChat {
   updated_at: number;
   messages: OWUIMessage[];
   models?: string[];
+  chat?: { messages: OWUIMessage[] };
 }
 
 export interface OWUIChatSummary {
